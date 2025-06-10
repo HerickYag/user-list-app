@@ -1,13 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
-import 'screens/user_list_screen.dart'; // Importe a nova tela
+import 'screens/user_list_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp(
-    options: DefaultFirebaseOptions.currentPlatform,
-  );
+  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
   runApp(const MyApp());
 }
 
@@ -17,12 +15,14 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'User List App',
+      title: 'Lista de Usuários', // Título do aplicativo
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        // --- TEMA MATERIAL 3 ---
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const UserListScreen(), // Defina a tela inicial aqui
+      debugShowCheckedModeBanner: false,
+      home: const UserListScreen(),
     );
   }
 }
