@@ -18,8 +18,6 @@ Este trabalho foi realizado como atividade para a disciplina ministrada pelo pro
   <img src="https://raw.githubusercontent.com/HerickYag/user-list-app/refs/heads/main/Tela%20de%20Detalhes.png" width="250" alt="Tela de Detalhes">
 </p>
 
-> **Nota:** Para as imagens aparecerem, você precisa primeiro enviá-las para o seu repositório e depois substituir as `URL_DA_SUA_IMAGEM...` pelo link correto.
-
 ## ✨ Funcionalidades
 
 -   **Lista de Contatos:** Exibe uma lista de usuários carregada a partir da API pública [JSONPlaceholder](https://jsonplaceholder.typicode.com/users).
