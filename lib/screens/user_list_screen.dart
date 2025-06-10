@@ -23,7 +23,7 @@ class _UserListScreenState extends State<UserListScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Lista de Usuários'),
+        title: const Text('Lista de Contatos do Herick'),
         // Adiciona uma cor de fundo que combina com o tema
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
       ),

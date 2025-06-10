@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Lista de Usuários', // Título do aplicativo
+      title: 'Lista de Contatos do Herick', // Título do aplicativo
       theme: ThemeData(
         // --- TEMA MATERIAL 3 ---
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
